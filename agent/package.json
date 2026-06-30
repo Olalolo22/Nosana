@@ -1,0 +1,22 @@
+{
+  "name": "nosana-agent",
+  "version": "1.0.0",
+  "description": "Mastra AI Agent for Nosana Agents 102 Challenge",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx index.ts",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@mastra/core": "latest",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0",
+    "tsx": "^4.7.0"
+  }
+}
